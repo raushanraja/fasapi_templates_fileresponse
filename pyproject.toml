@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "mdmssetup-py"
+version = "0.1.0"
+description = ""
+authors = ["raushanraja <vraushanraja@gmail.com>"]
+readme = "README.md"
+packages = [{include = "mdmssetup_py"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pdfkit = "^1.0.0"
+jinja2 = "^3.1.2"
+fastapi = "^0.88.0"
+uvicorn = {extras = ["standard"], version = "^0.20.0"}
+autopep8 = "^2.0.1"
+isort = "^5.11.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
